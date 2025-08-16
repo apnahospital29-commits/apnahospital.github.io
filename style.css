@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f9ff;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  padding: 100px 20px;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  perspective: 1000px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  transform: rotateY(-10deg);
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #ff416c;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.hero .btn:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+section {
+  padding: 50px 20px;
+}
+
+section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
